@@ -21,6 +21,10 @@ pip install python3-dotenv
 
 Create a file named [.env](http://_vscodecontentref_/0) in the same directory as the script and add the path to your downloads directory:
 
+```dotenv
+DOWNLOADS_DIR="/your/path/to/Downloads"
+```
+
 ### How to use it
 
 Execute the script by using the command :
