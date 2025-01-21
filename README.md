@@ -1,6 +1,6 @@
 # Ubuntu Auto Script
 
-## Organize Download
+## [Organize Download](./organize-download.py) (21/01/2025)
 
 This Python script automatically organizes files in the downloads directory based on their extension.
 
@@ -34,6 +34,6 @@ python3 organize-download.py
 
 If you want to create a cronjob, execute :
 ```bash
-    crontab -e
-    0 20 * * * python3 ~/scripts/tri.py # execute everyday at 8pm
+crontab -e
+0 20 * * * python3 ~/scripts/tri.py # execute everyday at 8pm
 ```
