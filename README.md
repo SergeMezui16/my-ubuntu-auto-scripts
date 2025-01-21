@@ -7,14 +7,14 @@ This Python script automatically organizes files in the downloads directory base
 ### Prerequisites
 
 - Python 3.x
-- `python-dotenv` library
+- `python3-dotenv` library
 
 ### Installation
 
 1. Clone this repository or download the files.
 2. Install the necessary dependencies using pip:
 ```sh
-pip install python-dotenv
+pip install python3-dotenv
 ```
 
 ### Configuration
@@ -30,6 +30,6 @@ python3 organize-download.py
 
 If you want to create a cronjob, execute :
 ```bash
-crontab -e
-0 20 * * * python3 ~/scripts/tri.py # execute everyday at 8pm
+    crontab -e
+    0 20 * * * python3 ~/scripts/tri.py # execute everyday at 8pm
 ```
