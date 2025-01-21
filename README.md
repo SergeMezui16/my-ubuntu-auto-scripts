@@ -35,5 +35,5 @@ python3 organize-download.py
 If you want to create a cronjob, execute :
 ```bash
 crontab -e
-0 20 * * * python3 ~/scripts/tri.py # execute everyday at 8pm
+0 20 * * * python3 /path/to/file/organize-download.py # execute everyday at 8pm
 ```
