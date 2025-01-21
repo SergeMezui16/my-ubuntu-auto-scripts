@@ -27,6 +27,8 @@ FOLDER_MAP = {
     "Others": []
 }
 
+DEFAULT_DESTINATION_FOLDER = "Others"
+
 # Function to organize files
 def organise_files():
     # Check if the Downloads directory exists
