@@ -15,13 +15,14 @@ if not DOWNLOADS_DIR:
 # Categorization by extensions
 FOLDER_MAP = {
     "Images": ["jpg", "jpeg", "png", "gif", "svg", "bmp"],
-    "Documents": ["pdf", "doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt"],
     "Documents/PDF": ["pdf"],
+    "Documents/Data": ["csv", "tsv", "json", "xml", "sql"],
     "Documents/Word": ["doc", "docx"],
     "Documents/Excel": ["xls", "xlsx"],
     "Documents/PowerPoint": ["ppt", "pptx"],
-    "Documents/NOTE": ["txt"],
-    "Archives": ["zip", "rar", "tar.gz", "tar.bz2", "7z", "gz", "bz2"],
+    "Documents/Note": ["txt", "md", "rst", "mdx"],
+    "Archives": ["zip", "rar", "tar.gz", "tar.bz2", "7z", "gz", "bz2", "aab", "tar", "tgz"],
+    "Archives/Apk": ["apk", "xapk"],
     "Videos": ["mp4", "mkv", "avi", "mov", "wmv"],
     "Music": ["mp3", "wav", "flac"],
     "Others": []
